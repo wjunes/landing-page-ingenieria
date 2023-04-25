@@ -1,0 +1,130 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    /* background-image: url(/img/image-of-globe.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F1F1F1; 
+    color: #fff;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+#mode-selector{
+    position: fixed;
+    top: 2%;
+    right: 1%;
+    border-radius:50%;
+    font-size: 1rem;
+    height: 70px;
+    width: 70px;
+    border: none;
+    background-color: #4e545c;
+    color: #e5e8e8;
+    transition: all 0.5s linear;
+    align-items: center;
+    transition: all .1s ease-in-out;
+      
+    }
+
+/* .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.main{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #000;
+    /* border-radius: 1rem; */
+    background-color: #FEFEFE;
+    /* opacity: 0.9;     */
+    
+    /* background: -moz-linear-gradient(90deg, rgb(91, 128, 185) 0%, rgba(1,143,68,1) 35%, rgba(6,150,180,0.9906163148853291) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(84,84,85,1) 0%, rgba(1,143,68,1) 35%, rgba(6,150,180,0.9906163148853291) 100%);
+    background: linear-gradient(90deg, rgb(61, 75, 108) 0%, rgba(1,143,68,1) 35%, rgba(6,150,180,0.9906163148853291) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#545455",endColorstr="#0696b4",GradientType=1); 
+    color: #fff; */
+}
+
+
+
+/* .main::before{
+    content: '';
+    background-image: url('/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 60vh;
+    z-index: -1;
+    
+}
+
+.main::after{
+    content: '';
+    background-image: url('/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 60vw;
+    height: 80vh;
+    z-index: -1;
+    transform: rotate(90deg);
+} */ 
+.sobremi{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sobremi p{
+    font-weight: 700;
+    color: white;
+    font-size: 1.25rem;
+
+}
+
+ 
+ @media only screen and (min-width: 768px) {
+
+    .header{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer{
+        max-width: 1024px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* .header .photo{
+       grid-area: photo;
+       margin: 0 auto; 
+    } */
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+        
+    }
+    .main::before, main::after{
+       width: 70vw; 
+    }
+
+    
+} 

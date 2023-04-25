@@ -1,0 +1,72 @@
+
+.formacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.formacion li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.formacion li .title{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: .25rem;
+    color: #000;
+}
+
+.formacion li .title.curso::before{
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../assets/logos/python.png');
+    margin-right: .5rem
+}
+
+.formacion li .title.curso2::before{
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+    background-image: url('../assets/logos/servidor-sql.png');
+    background-repeat: no-repeat;
+    margin-right: .5rem;
+}
+
+.formacion li .title.curso3::before{
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+    background-image: url('../assets/logos/docker.png');
+    background-repeat: no-repeat;
+    margin-right: .5rem;
+}
+
+.formacion li .title.facu::before{
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+    background-image: url('../assets/icons/obrero.png');
+    background-repeat: no-repeat;
+    margin-right: .5rem;
+}

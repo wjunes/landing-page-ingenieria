@@ -1,0 +1,50 @@
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 700;
+
+}  
+
+.experience li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.experience li .title{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: .25rem;
+    color: #000;
+}
+
+.experience li a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+.experience li a:hover{
+    text-decoration: underline;
+}
+
+.experience li .title.github::before{
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../assets/logos/docker1.png');
+    margin-right: .5rem
+}

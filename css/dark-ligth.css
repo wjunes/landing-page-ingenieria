@@ -1,0 +1,239 @@
+
+
+/* body {
+    background-color: #000000 0.7;
+    color: #FFF;
+  } */
+  
+  .dark-mode {
+    background-color:rgb(19, 19, 20);
+    color: #FFFFFF;
+  }
+
+  /* .dark-mode {
+    background-color:rgb(19, 19, 20);
+    opacity: 0.9;
+  }  */
+
+  .dark-mode .main{
+    background-color:rgb(19, 19, 20);
+    color: #FFFFFF;
+    border: 1px solid #FFF;
+    
+  }
+
+  .dark-mode .acordeon.open{
+    border: 1px solid #FFF;
+    
+  }
+
+  .dark-mode .acordeon.open:hover{
+    /* background-color: rgb(183, 201, 201);
+    border-color:   rgb(183, 201, 201); */
+  }
+
+  .dark-mode .btn-con a {
+    color: #fff;
+  }
+
+  .dark-mode .trigger {
+    color:#fff;
+  }
+
+  .dark-mode .information p::before{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url('../assets/icons/marcador1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
+
+.dark-mode .information .job::before {
+  background-image: url('../assets/icons/ingeniero.png');
+  /* border-radius: 50%; */
+}
+
+
+.dark-mode .informacion .location::before {
+  background-image: url('../assets/icons/marcador1.png');
+}
+
+.dark-mode .information .phone::before {
+  background-image: url('../assets/icons/phone.png');
+  /* border-radius: 50%; */
+}
+
+.dark-mode  .information .email::before {
+  background-image: url('../assets/icons/email.png');
+  /* border-radius: 50%; */
+}
+
+  
+  .dark-mode .acordeon .trigger::after{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../assets/icons/arrow-down.png');
+    transition: .25s;
+}
+
+.dark-mode .languages li::before {
+  content: '';
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../assets/icons/control.png');
+  margin-right: .5rem;
+}
+
+.dark-mode .experience li .title{
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: .25rem;
+  color: #FFF;
+  
+}
+
+.dark-mode .experience li a{
+  color: #FFF;
+  text-decoration: none;
+}
+  
+  .dark-mode .header .title{
+    color: #fff;
+  }
+
+  .dark-mode .acordeon{
+    background-color: #131314;
+    border: solid #FFFFFF 1px;
+  }
+
+  .dark-mode .acordeon .content .sobremi p{
+    color: #fff;
+  }
+
+  .dark-mode .header .information .job a{
+    color: #fff;
+  }
+
+  .dark-mode .header .information .email a{
+    color: #fff;
+  }
+
+  .dark-mode .header .information p{
+    color: #fff;
+  }
+
+  .dark-mode .header .information .phone a{
+    color: #fff;
+  }
+  
+
+  .dark-mode .languages li{
+    color: #fff;
+  }
+
+  .dark-mode .skills h3{
+    color: #FFF;
+  }
+
+  .dark-mode .formacion li .title{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: .25rem;
+    color: #fff;
+}
+
+  .dark-mode .skills .personal ul li{
+    color: #FFF;
+  }
+   .dark-mode .formacion li .title.facu::before{
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-size: contain;
+    background-image: url('../assets/logos/ingeniero.png');
+    background-repeat: no-repeat;
+    margin-right: .5rem;
+}
+
+
+/*BOTON SELECTOR TEMA DARK*/
+
+
+
+  #mode-selector:hover{
+    cursor: pointer;
+    background-color: #9da0a0;
+	  color: #4e545c;
+  }
+
+  #mode-selector .dark-mode {
+    background-color: rgb(2,59,59)
+	 
+  } 
+
+  /* #toggle-btn p::after{
+    content: '';
+    display: inline-block;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../img/dklg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: .5rem;
+    
+  } */
+
+  /* #toggle-btn .dark-mode p{
+    color: #fff;
+  } */
+
+  .dark-mode .footer h3{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 2rem; 
+    color: #FFF;
+    text-align: center;
+}
+
+  .dark-mode .footer h4{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 2rem; 
+    color: #FFF;
+    text-align: center;
+}
+
+
+  .dark-mode .footer a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+  
+  /* .dark-mode .footer h4::after{
+    content: '';
+    display: inline-block;
+    width:3rem;
+    height: 3rem;
+    background-image: url('/img/WJ DEV bc.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+  } */

@@ -1,0 +1,160 @@
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header .photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.header .title{
+    text-align: center;
+    color: #000;
+    padding: 1rem;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    color: white;
+}
+.information .job a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+.information .job a:hover{
+    text-decoration: underline;
+    
+}
+
+.information .email a{
+    text-decoration: none;
+    color: #000;
+}
+
+.information .email a:hover{
+    text-decoration: underline;
+}
+
+.information .phone a{
+    text-decoration: none;
+    color: #000;
+}
+
+.information .phone a:hover{
+    text-decoration: underline;
+}
+
+.information p{
+    display: flex;
+    flex-direction: row;
+    margin: .5rem;
+    font-size: 1.25rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.information p::before{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url('../assets/icons/marcador2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
+
+/* .information .job::after{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    /* background-image: url('../assets/icons/linkedin.png'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: .5rem;
+} */
+
+.information .job::before {
+    background-image: url('../assets/icons/obrero.png');
+    /* border-radius: 50%; */
+}
+
+.information .job::after {
+    background-image: url('../assets/icons/linkedin.png');
+    border-radius: 50%;
+}
+
+.informacion .location::before {
+    background-image: url('../assets/icons/marcador2.png');
+}
+
+/* .information .location::after{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: .5rem;
+    background-image: url('../assets/icons/uruguay.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+} */
+
+.informacion .location::after {
+    background-image: url('../assets/icons/uruguay.png');
+}
+
+.information .phone::before {
+    background-image: url('../assets/icons/phone-blk.png');
+    border-radius: 50%;
+}
+
+.information .email::before {
+    background-image: url('../assets/icons/sobre.png');
+    /* border-radius: 50%; */
+}
+
+/* RESPONSIVIDAD */
+
+@media only screen and (min-width: 768px) {
+ 
+    .header{
+        display: grid;
+        grid-template-areas: 
+            "photo title"
+            "photo informacion"
+        ;    
+        }
+        .header .photo{
+            grid-area: photo;
+            margin: 0 auto;
+        }
+        .header .title{
+            grid-area: title;
+            text-align: start;
+            max-width: 220px;
+        }
+        .header .information{
+            grid-area: informacion;
+        }
+
+        .footer{
+            
+            display: flex;
+            
+        }
+
+    } 

@@ -1,0 +1,13 @@
+
+
+.btn-con a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.btn-con{
+    border: none;
+    background-color: transparent;
+}
